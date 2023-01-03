@@ -1,0 +1,604 @@
+section {
+	padding: 100px 0;
+}
+
+section .dividor {
+	margin-bottom: 40px;
+}
+
+//fonts classes
+.ptblsstr {
+	font-family: $ptblsstr;
+}
+
+.itcedscr {
+	font-family: $itcedscr;
+}
+
+.acumin {
+	font-family: $acumin;
+}
+
+.homepage .container #bord-line {
+	border-right: 2px solid orange;
+}
+
+// Statistics Section
+
+section.statistics {
+	background-color: #cba557;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: left;
+	color: #fff;
+	padding: 70px 0;
+
+}
+
+section.statistics .statistic-single.borderright {
+	border-right: 1px solid #fff;
+}
+
+section.statistics .statistic-single.borderleft {
+	border-left: 1px solid #fff;
+
+}
+
+section.statistics .statistic-single .icon img {
+	width: 120px;
+	height: 120px;
+	margin-bottom: 15px;
+	object-fit: contain;
+	object-position: center;
+}
+
+section.statistics .statistic-single .title {
+	font-weight: bold;
+}
+
+section.statistics .statistic-single .description {
+	font-size: $x_medium;
+}
+
+section.statistics h2 {
+	margin-bottom: 25px;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+section.statistics p {
+	font-size: 17px;
+}
+
+section.statistics .book {
+	text-align: right;
+}
+
+// About Section
+section.about {
+	padding: 70px 0;
+
+}
+
+section.about img {
+	width: 80%;
+
+}
+
+section.homepage h2,
+section.about h5 {
+	color: $secondary_color;
+	margin-bottom: 20px;
+}
+
+section.homepage h2.big-title {
+	font-size: 55px;
+}
+
+section.about h5.ptblsstr {
+	font-size: 30px;
+}
+
+section.about p {
+	color: $nutural_color;
+	margin-bottom: 50px;
+}
+
+section.about .about-samia {
+	position: relative;
+}
+
+section.about .about-logo {
+	background-color: $nutural_color;
+	border: 7px solid #fff;
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	right: 25px;
+	width: 250px;
+}
+
+section.about .about-logo img {
+	object-fit: cover;
+	object-position: center;
+
+}
+
+// PracticeArea Section
+section.practicearea {
+	// background-image: url('../samia_assets/images/Untitled-2-03.png');
+	// background-position: center;
+	// background-size: cover;
+	// background-repeat: no-repeat;
+	padding: 60px 0 35px 0;
+}
+
+section.practicearea .item .item-card img.primary {
+	margin-top: -40px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+section.practicearea .item .item-card img.icon {
+	position: relative;
+	z-index: 99;
+	border-radius: 38px;
+	background-color: $light_nutural_color;
+
+}
+
+section.practicearea .item-click {
+	display: block;
+	color: #fff;
+	position: relative;
+	z-index: 99;
+	padding: 25px 10px;
+	width: 75%;
+	background-color: $light_nutural_color;
+	border-bottom: 3px solid $gold;
+	margin: auto;
+	margin-top: -40px;
+	transition: all .2s linear;
+	font-size: 17px;
+	height: 90px;
+
+}
+
+section.practicearea .item-click:hover {
+	background-color: #c19d4d;
+	border-color: #c19d4d;
+	box-shadow: 0 4px 4px rgb(0 0 0 / 25%)
+}
+
+section.practicearea h2 {
+	margin-bottom: 55px;
+}
+section.practicearea h2 a{
+	color: #393734;
+}
+
+section.homepage.practicearea button {
+	background-color: #cba557;
+	border: none;
+	border-radius: 2px;
+	padding: 7px 40px;
+}
+section.homepage.practicearea  h3{
+	font-weight: bold;
+	color: #393734;
+}
+section.homepage.practicearea button:hover {
+	background-color: #cba557;
+}
+
+// new footer
+
+
+$font-primary: 'Poppins', Arial, sans-serif;
+$primary: #a3de83;
+
+body {
+	font-family: $font-primary;
+	font-size: 15px;
+	line-height: 1.8;
+	font-weight: normal;
+}
+
+a {
+	transition: .3s all ease;
+
+	&:hover,
+	&:focus {
+		text-decoration: none !important;
+		outline: none !important;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: $font-primary;
+}
+
+
+
+
+.ftco-footer-social {
+	li {
+		list-style: none;
+		margin: 0 10px 0 0;
+		display: inline-block;
+
+		a {
+			height: 40px;
+			width: 40px;
+			display: block;
+			background: black;
+			border-radius: 50%;
+			position: relative;
+
+			span {
+				position: absolute;
+				font-size: 20px;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			&:hover {
+				color: white;
+			}
+		}
+	}
+}
+
+
+//FORM CONTROL
+.form-control {
+	height: 52px;
+	background: white;
+	color: black;
+	font-size: 18px;
+	border-radius: 0px;
+	box-shadow: none;
+	border: 1px solid rgba(0, 0, 0, .1);
+
+	&:focus,
+	&:active {
+		outline: none !important;
+		box-shadow: none;
+	}
+}
+
+textarea.form-control {
+	height: inherit !important;
+}
+
+.ftco-section {
+	padding: 12em 0;
+
+	h2 {
+		margin-bottom: 0;
+	}
+}
+
+
+//FOOTER 07
+.footer-07 {
+	background: #121212;
+
+	a {
+		color: $primary;
+	}
+
+	p {
+		color: rgba(255, 255, 255, .3);
+	}
+
+	.footer-heading {
+		font-size: 30px;
+		color: white;
+		font-weight: 700;
+		margin-bottom: 30px;
+
+		.logo {
+			color: white;
+		}
+	}
+
+	.menu {
+		margin-bottom: 30px;
+
+		a {
+			color: rgba(255, 255, 255, .6);
+			margin: 0 10px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+	}
+
+	.ftco-footer-social {
+		li {
+			a {
+				background: transparent;
+				border: 1px solid;
+			}
+		}
+	}
+}
+
+// new footer
+
+
+$font-primary: 'Poppins', Arial, sans-serif;
+$primary: #a3de83;
+
+body {
+	font-family: $font-primary;
+	font-size: 15px;
+	line-height: 1.8;
+	font-weight: normal;
+}
+
+a {
+	transition: .3s all ease;
+
+	&:hover,
+	&:focus {
+		text-decoration: none !important;
+		outline: none !important;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: $font-primary;
+}
+
+
+
+
+.ftco-footer-social {
+	li {
+		list-style: none;
+		margin: 0 10px 0 0;
+		display: inline-block;
+
+		a {
+			height: 40px;
+			width: 40px;
+			display: block;
+			background: black;
+			border-radius: 50%;
+			position: relative;
+
+			span {
+				position: absolute;
+				font-size: 20px;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			&:hover {
+				color: white;
+			}
+		}
+	}
+}
+
+
+//FORM CONTROL
+.form-control {
+	height: 52px;
+	background: white;
+	color: black;
+	font-size: 18px;
+	border-radius: 0px;
+	box-shadow: none;
+	border: 1px solid rgba(0, 0, 0, .1);
+
+	&:focus,
+	&:active {
+		outline: none !important;
+		box-shadow: none;
+	}
+}
+
+textarea.form-control {
+	height: inherit !important;
+}
+
+.ftco-section {
+	padding: 12em 0;
+
+	h2 {
+		margin-bottom: 0;
+	}
+}
+
+
+
+.nav1 a.nuxt-link-exact-active {
+	background: #a7a6a5;
+	padding: 5px 0;
+}
+
+// end new footer
+//FOOTER 07
+.footer-07 {
+	background: #121212;
+
+	a {
+		color: $primary;
+	}
+
+	p {
+		color: rgba(255, 255, 255, .3);
+	}
+
+	.footer-heading {
+		font-size: 30px;
+		color: white;
+		font-weight: 700;
+		margin-bottom: 30px;
+
+		.logo {
+			color: white;
+		}
+	}
+
+	.menu {
+		margin-bottom: 30px;
+
+		a {
+			color: rgba(255, 255, 255, .6);
+			margin: 0 10px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+	}
+
+	.ftco-footer-social {
+		li {
+			a {
+				background: transparent;
+				border: 1px solid;
+			}
+		}
+	}
+}
+
+// end new footer
+//Our Team
+section.our-team .item {
+	border: 1px solid #faf6f1;
+	box-shadow: 0 3px 3px rgb(0 0 0 / 25%);
+	padding: 45px 10px;
+	background: white;
+}
+
+section.our-team .item img {
+	width: 250px;
+	margin-bottom: 30px;
+}
+
+section.our-team h5 {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+section.our-team .item p.desc {
+	text-align: left;
+	color: #4c4d4b;
+}
+
+section.our-team .item .more {
+	color: $gold;
+	margin-left: 10px;
+}
+
+section.our-team {
+	background-image: url("../samia_assets/images/Untitled-1-06.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+//MEDIA
+@media (max-width: 768px) {
+	section.about p {
+		margin-bottom: 20px;
+	}
+
+	section.about .about-samia {
+		margin-bottom: 30px;
+	}
+
+	section.about h5.ptblsstr {
+		font-size: 25px;
+
+	}
+
+	section.statistics .statistic-single.borderrighttab {
+		border-right: 1px solid #fff;
+	}
+
+	section.statistics .statistic-single .icon img {
+		width: 80px;
+		height: 80px;
+	}
+
+	section.practicearea .title img,
+	section.our-team .title img {
+		width: 100%;
+	}
+
+	section.homepage h2.big-title {
+		font-size: 40px;
+	}
+
+	section.practicearea .item .item-card {
+		margin-bottom: 25px;
+	}
+
+	section.officelocation h2 {
+		font-size: 35px;
+	}
+
+	section.our-team .item {
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 576px) {
+
+	section.statistics .statistic-single.borderrightmob {
+		border-right: 1px solid #fff;
+	}
+
+	section.about .about-logo {
+		top: 25%;
+		width: 150px;
+	}
+
+	section.statistics .book {
+		text-align: center;
+	}
+section.statistics h2 {
+font-size: 25px;
+}
+
+	section.officelocation .item {
+		margin-bottom: 25px;
+	}
+
+	section.officelocation .item .description {
+		position: unset;
+	}
+
+	section.officelocation .item .item-link {
+		position: unset;
+	}
+}

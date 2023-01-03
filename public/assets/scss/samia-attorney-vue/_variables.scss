@@ -1,0 +1,33 @@
+
+
+//FONTS FAMLIY
+@font-face {
+    font-family: ptblsstr;
+    src: url(../fonts/PTBLSSTR.TTF);
+ }
+ @font-face {
+    font-family: itcedscr;
+    src: url(../fonts/ITCEDSCR.TTF);
+ }
+ @font-face {
+   font-family: acumin;
+   src: url(../fonts/AcuminVariableConcept.otf);
+}
+ 
+//FONTS
+$ptblsstr :"ptblsstr";
+$itcedscr :"itcedscr";
+$acumin :"acumin";
+
+//COLORS
+$base_color: #F9C349;
+$base_color_hover:#cba557;
+$dark_color:#1E1810;
+$secondary_color:#393734; //titles
+$nutural_color:#4c4d4b;
+$light_nutural_color:#787973;
+$gold:#D69E08;
+//SIZES
+$small:13px;
+$medium:17px;
+$x_medium:21px;

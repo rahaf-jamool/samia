@@ -1,0 +1,57 @@
+.card .card-header .collapsed{
+    color: black;
+}
+
+.card .card-header .collapsed:hover{
+    color: blue;
+}
+.card-link{
+    color: black;
+}
+#practice .thumbnail{
+    box-shadow: 0px 15px 70px -20px rgba(10, 10, 10, 0.76);
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    height: 250px;
+    background-color: #929297;
+}
+#practice  .thumbnail:hover{
+    color: rgb(89, 92, 91);
+}
+#practice{
+    padding: 25px;
+}
+#faqs{
+    padding: 25px;
+}
+#practice .col-sm-4{
+    padding: 10px;
+}
+.praimg{
+    width: 100%;
+    background-color:#cba557;
+    object-fit: cover;
+    object-position: center;
+    height: 250px;
+}
+.backbord{
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%)
+
+}
+.homepage.practicearea {
+    border-bottom: 10px solid peru;
+}
+.backbord.marginright{
+    margin-right: 15px;
+
+}
+@media (max-width: 576px) {
+.backbord.marginright{
+    margin-right: -10px;
+
+}
+.homepage.practicearea .backbord{
+padding-bottom: 15px;
+}
+}

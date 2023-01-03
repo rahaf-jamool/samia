@@ -1,0 +1,50 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/rahafjamool/Documents/Projects Nerva/موقع المحامية سامية/samia-lawyer-vue/pages/about.vue",
+    "chunkName": "pages/about"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/home/rahafjamool/Documents/Projects Nerva/موقع المحامية سامية/samia-lawyer-vue/pages/contact.vue",
+    "chunkName": "pages/contact"
+  },
+  {
+    "name": "ourprofile",
+    "path": "/ourprofile",
+    "component": "/home/rahafjamool/Documents/Projects Nerva/موقع المحامية سامية/samia-lawyer-vue/pages/ourprofile.vue",
+    "chunkName": "pages/ourprofile"
+  },
+  {
+    "name": "practice",
+    "path": "/practice",
+    "component": "/home/rahafjamool/Documents/Projects Nerva/موقع المحامية سامية/samia-lawyer-vue/pages/practice.vue",
+    "chunkName": "pages/practice"
+  },
+  {
+    "name": "media-gallery",
+    "path": "/media/gallery",
+    "component": "/home/rahafjamool/Documents/Projects Nerva/موقع المحامية سامية/samia-lawyer-vue/pages/media/gallery/index.vue",
+    "chunkName": "pages/media/gallery/index"
+  },
+  {
+    "name": "media-news",
+    "path": "/media/news",
+    "component": "/home/rahafjamool/Documents/Projects Nerva/موقع المحامية سامية/samia-lawyer-vue/pages/media/news/index.vue",
+    "chunkName": "pages/media/news/index"
+  },
+  {
+    "name": "media-videos",
+    "path": "/media/videos",
+    "component": "/home/rahafjamool/Documents/Projects Nerva/موقع المحامية سامية/samia-lawyer-vue/pages/media/videos/index.vue",
+    "chunkName": "pages/media/videos/index"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/rahafjamool/Documents/Projects Nerva/موقع المحامية سامية/samia-lawyer-vue/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]

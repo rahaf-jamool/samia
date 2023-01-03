@@ -1,0 +1,92 @@
+{
+  "PageTitle": {
+    "description": "Auto imported from components/global/PageTitle.vue"
+  },
+  "TitleHead": {
+    "description": "Auto imported from components/global/TitleHead.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "About": {
+    "description": "Auto imported from components/About/About.vue"
+  },
+  "CommonAppointment": {
+    "description": "Auto imported from components/Common/Appointment.vue"
+  },
+  "CommonFooter": {
+    "description": "Auto imported from components/Common/Footer.vue"
+  },
+  "CommonHeader": {
+    "description": "Auto imported from components/Common/Header.vue"
+  },
+  "CommonHeaderSection": {
+    "description": "Auto imported from components/Common/Header_Section.vue"
+  },
+  "CommonSocialLinks": {
+    "description": "Auto imported from components/Common/SocialLinks.vue"
+  },
+  "Contact": {
+    "description": "Auto imported from components/Contact/Contact.vue"
+  },
+  "HomeAbout": {
+    "description": "Auto imported from components/Home/About.vue"
+  },
+  "Home": {
+    "description": "Auto imported from components/Home/Home.vue"
+  },
+  "HomeLeaderInfo": {
+    "description": "Auto imported from components/Home/LeaderInfo.vue"
+  },
+  "HomeOfficeLocation": {
+    "description": "Auto imported from components/Home/OfficeLocation.vue"
+  },
+  "HomeOurPlan": {
+    "description": "Auto imported from components/Home/OurPlan.vue"
+  },
+  "HomeOurTeam": {
+    "description": "Auto imported from components/Home/OurTeam.vue"
+  },
+  "HomePersonTeam": {
+    "description": "Auto imported from components/Home/PersonTeam.vue"
+  },
+  "HomePracticeArea": {
+    "description": "Auto imported from components/Home/PracticeArea.vue"
+  },
+  "HomeSinglePractice": {
+    "description": "Auto imported from components/Home/SinglePractice.vue"
+  },
+  "HomeStatisticSingle": {
+    "description": "Auto imported from components/Home/StatisticSingle.vue"
+  },
+  "HomeStatistics": {
+    "description": "Auto imported from components/Home/Statistics.vue"
+  },
+  "HomeLocation": {
+    "description": "Auto imported from components/Home/location.vue"
+  },
+  "LoaderVPlaceload": {
+    "description": "Auto imported from components/Loader/VPlaceload.vue"
+  },
+  "OurProfile": {
+    "description": "Auto imported from components/OurProfile/OurProfile.vue"
+  },
+  "PracticeArea": {
+    "description": "Auto imported from components/PracticeArea/PracticeArea.vue"
+  },
+  "MediaGallery": {
+    "description": "Auto imported from components/Media/Gallery/Gallery.vue"
+  },
+  "MediaNewsItem": {
+    "description": "Auto imported from components/Media/News/NewsItem.vue"
+  },
+  "MediaNewsPagination": {
+    "description": "Auto imported from components/Media/News/Pagination.vue"
+  },
+  "MediaNewsSidebar": {
+    "description": "Auto imported from components/Media/News/sidebar.vue"
+  },
+  "MediaVideo": {
+    "description": "Auto imported from components/Media/Video/Video.vue"
+  }
+}

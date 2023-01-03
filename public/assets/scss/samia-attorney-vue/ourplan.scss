@@ -1,0 +1,55 @@
+section.ourplan  {
+    background-image: url("../samia_assets/images/Untitled-1-05.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color:white;
+    padding: 60px 0;
+    position: relative;
+}
+
+section.ourplan .brown-back{
+background-color: #D6A029;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+opacity: 0.4;
+}
+    section.ourplan  .thums{
+    margin-top: 130px;
+    color: #999696;
+}
+section.ourplan .container .thums h3{
+    color: #999696;
+font-weight: bold;
+}
+.ourplan-thum{
+    background-position: center;
+    background-size: cover;
+    padding: 100px 20px 40px 20px;
+    background-repeat: no-repeat;
+}
+.ourplan-thum1
+{
+    background-image: url("../samia_assets/icons/Asset33ldpi.png");
+
+}
+.ourplan-thum2
+{
+    background-image: url("../samia_assets/icons/Asset32ldpi.png");
+
+
+}
+.ourplan-thum3
+{
+    background-image: url("../samia_assets/icons/Asset31ldpi.png");
+
+}
+section.ourplan h2{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
